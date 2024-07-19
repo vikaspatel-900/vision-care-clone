@@ -1,0 +1,194 @@
+
+
+.contact-section-1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0px;
+    padding: 0px 90px;
+    background-color: blue;
+    color: white;
+}
+
+
+.contact-section-1 h2 {
+    font-size: 55px;
+}
+
+.contact-section-1 p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+/***********************************************************contact-section-2*****************************************************************/
+
+
+
+.contact-section-2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    width: 100%;
+    color: white;
+    padding: 80px;
+}
+
+
+.coct-sec4-left{
+  background-color: rgb(19, 139, 204);
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+
+.coct-sec4-left h2{
+    font-size: 30px;
+}
+
+
+
+.coct-sec4-left form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 0px 30px;
+
+}
+
+
+
+.coct-sec4-left form div{
+    display: flex;
+    column-gap: 20px;
+}
+
+
+
+.coct-sec4-left form div input{
+    width: 90%;
+    padding: 4px 8px;
+    height: 43px;
+}
+
+
+.coct-sec4-left form div label{
+    width: 90px;
+}
+
+
+
+.coct-sec4-left form button{
+    width: max-content;
+    padding: 14px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(13, 116, 195);
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+.coct-sec1-right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap:20px;
+    justify-content: center;
+    color: black;
+    padding: 20px;
+}
+
+
+.coct-sec1-right div{
+    display: flex;
+    flex-direction: column;
+row-gap: 10px;
+}
+
+
+
+
+.coct-sec4-right-contact p{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+
+.coct-sec4-right-contact h1{
+    font-size: 45px;
+} 
+
+
+
+
+
+.coct-icons div{
+   display: flex;
+   flex-direction: row;
+   column-gap: 15px;
+   font-size: 20px;
+}
+
+
+.coct-icons div p{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+.coct-icons div p:hover{
+    background-color: black;
+    transform: scale(1.1);
+}
+
+
+.coct-icons div p i{
+    color: white;
+}
+
+
+.coct-sec1-right-main div p i{
+    color: rgb(5, 60, 155);
+    margin-right: 5px;
+}
+
+
+
+
+
+
+/**********************************************************************contact-map-section*******************************************************/
+
+
+
+.contact-map-section{
+    width: 100%;
+    height: 400px;
+    padding: 30px 50px;
+}

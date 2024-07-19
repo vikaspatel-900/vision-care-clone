@@ -1,0 +1,1111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100vw;
+    /* position: absolute;
+    top: 0; */
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********************************************************contact-nav**************************************************************************/
+
+
+.contact-nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 17px 60px;
+    background-color:darkslategrey;
+    color: white;
+    font-size: 16px;
+}
+
+
+.contact-nav p{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+
+.contact-nav p i{
+    font-size: 18px;
+}
+
+
+
+/*******************************************************navbar***********************************************************************************/
+
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 80px;
+    padding-right: 100px;
+    box-shadow: 0px 1px 4px grey;
+}
+
+
+.nav-logo img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+
+
+
+
+.nav-link li a{
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+.nav-link li a:hover{
+    color: rgb(20, 75, 215);
+}
+
+
+
+
+/*****************************************************main-section**********************************************************************/
+
+
+.main-section{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.main-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: rgba(0, 0, 0, 0.542);
+    padding: 30px;
+    z-index: 3;
+    position: absolute;
+    /* top: 200px; */
+    left: 80px;
+    color: white;
+    width: 43%;
+}
+
+
+.main-content h2{
+
+    font-size: 55px;
+    line-height: 55px;
+}
+
+
+
+
+/************************************************************hamburger*********************************************************************/
+
+.hamburger{
+   background-color: blue;
+   padding: 2px 5px;
+   border-radius: 3px;
+   cursor: pointer;
+   display: none;
+
+}
+
+
+
+.line{
+    margin: 5px 0px;
+    width: 23px;
+    height: 2px;
+    background-color: black;
+}
+
+
+
+.hamburger-navbar{
+    width: 0px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: white;
+    box-shadow: 2px 1px 12px 1px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    transition: width 0.5s ease-in, opacity 0.6s ease-in;
+    opacity: 0;
+}
+
+
+.hamburger-navlink{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 30px;
+    
+}
+
+
+.hamburger-navlink a{
+    color: black;
+}
+
+
+.hamburger-navlink a:hover{
+    color: blue;
+}
+
+
+.hamburger-logo img{
+    width: 50px;
+    height: 50px;
+   margin-top: 30px;
+   margin-left: 30px;
+    
+}
+
+
+.toggle{
+    width: 250px;
+}
+
+
+
+.toggle2{
+    opacity: 1;
+}
+
+
+
+/**********************************************************************section-2*********************************************************/
+
+
+.section-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+
+.sec2-heding h1{
+    font-size: 40px;
+    color:black;
+}
+
+
+.sec2-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 20px;
+    column-gap: 150px;
+    row-gap: 50px;
+    position: relative;
+}
+
+.sec2-img img{
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+
+.sec2-img2{
+    position: absolute;
+    top: 350px;
+    left: 420px;
+    z-index: 2;
+}
+
+
+.sec2-img2 img{
+    width: 300px;
+    height: 220px;
+    object-fit:cover;
+    border-radius: 10px;
+}
+
+.sec2-about{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+
+.sec2-about-ab{
+    display: flex;
+    column-gap: 5px;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.612);
+    align-items: center;
+}
+
+
+
+.sec2-about-ab li{
+    width: 30px;
+    height: 2px;
+    background-color: black;
+}
+
+
+
+.sec2-about h2{
+    font-size: 45px;
+    width: 480px;
+}
+
+.sec2-about-list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    margin-top: 20px;
+    
+}
+
+
+.sec2-about-list div{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+
+}
+
+
+
+.sec2-btn{
+    width: 120px;
+    padding: 7px 0px;
+    border-radius: 7px;
+    color: black;
+    border: 2px solid black;
+    transition: all 0.3s;
+    cursor: pointer;
+   
+    font-size: 15px;
+}
+
+
+.sec2-btn:hover{
+    /* transform: scale(1.1); */
+    background-color:rgb(15, 50, 50);
+    color: white;
+}
+
+
+/********************************************************section-3*************************************************************************/
+
+
+
+.section-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+   
+}
+
+
+
+.sec3-box{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+
+.sec3-heding{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 250px;
+    padding: 80px;
+}
+
+
+.sec3-heding-left{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+}
+
+
+.sec3-heding-left h2{
+  color: rgba(25, 104, 194, 0.881);
+  font-size: 45px;
+}
+
+.sec3-heding-left div{
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  color: blue;
+  font-size: 22px;
+  
+
+}
+.sec3-heding-left li{
+    width: 40px;
+    height: 2px;
+    background-color:blue;
+    display:inline-flex;
+}
+
+
+
+.sec3-box div{
+    width: 240px;
+    height: 380px;
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 2.5px 3px 4px 1px grey;
+    border-radius: 7px;
+    transition: all 0.5s;
+}
+
+
+
+.sec3-box div:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 3;
+    background-color: rgb(231, 37, 118);
+}
+
+
+
+.sec3-box div img{
+    width: 100%;
+}
+
+
+
+
+.sec3-box div h3{
+    font-size: 24px;
+    
+}
+
+
+
+/*********************************************************section-4************************************************************************/
+
+
+.section-4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 30px;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(29, 55, 55);
+    color: white;
+}
+
+
+.sec4-span{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 5px;
+}
+
+.sec4-span p{
+    font-size: 20px;
+}
+
+.sec4-span span{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+}
+
+
+.sec4-main-div{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+
+
+.sec4-heding h2{
+    font-size: 43px;
+    text-align: center;
+}
+
+
+.sec4-div{
+    width: 300px;
+    height: 330px;
+    text-align: center;
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    box-shadow: 0px 1px 4px grey;
+    transition: all 0.7s;
+    cursor: pointer;
+    
+}
+
+
+.sec4-div:hover{
+    transform: translateY(-10px);
+}
+
+
+.sec4-div h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+/***********************************************************section-5***************************************************************************/
+
+
+
+.section-5{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+
+
+.sec5-span{
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5-span p{
+    font-size: 20px;
+    color: blue;
+}
+
+
+.sec5-span span{
+    width: 30px;
+    height: 2px;
+    background-color: blue;
+   
+}
+
+
+
+.sec5-heding h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+
+
+
+/******************************************************************footer*******************************************************************/
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:rgb(29, 55, 55);
+    row-gap: 40px;
+    color: white;
+
+}
+
+
+.top-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 60px;
+    background-color:rgb(29, 55, 55);
+    column-gap: 30px;
+    row-gap: 30px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.footer-img{
+    width: 300px;
+    height: 350px;
+}
+
+
+.footer-img img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.footer-quick-link{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 300px;
+}
+
+
+.footer-quick-link div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.footer-quick-link div a{
+    color: white;
+    transition: all 0.3s;
+}
+
+.footer-quick-link div a:hover{
+    
+    color: rgb(10, 168, 166);
+}
+
+
+
+.footer-address{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    row-gap: 20px;
+}
+
+.footer-address .add-icon{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.footer-address .add-icon p{
+    display: flex;
+    column-gap: 7px;
+}
+
+
+
+.footer-icon{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+
+.footer-icon a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    transition:all 0.4s;
+}
+
+
+.footer-icon a:hover{
+    transform: translateY(-5px);
+}
+
+
+.footer-icon a i{
+    color: white;
+}
+
+
+.bottom-footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.bottom-footer div{
+    width: 90%;
+    height: 1px;
+    background-color:rgba(255, 255, 255, 0.764);
+
+}
+
+
+.bottom-footer2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+.bottom-footer2 p{
+    color: black;
+    padding: 30px;
+}
+
+
+.bottom-footer2 p span{
+    color: blue;
+}
+/********************************************************************media********************************************************************/
+
+
+
+@media only screen and (max-width:760px){
+  
+    .sec4-heding h2{
+        font-size: 27px;
+        text-align: center;
+    }
+
+
+    .sec4-span p{
+        font-size: 16px;
+    }
+
+    
+
+    .sec5-heding h2{
+        font-size: 27px;
+        text-align: center;
+    }
+
+
+
+    .sec5-span p{
+        font-size: 16px;
+        color: blue;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:791px){
+
+   .sec4-div{
+     width: 100%;
+     height: 250px;
+   }
+
+
+   .sec4-main-div{
+
+    padding: 20px 20px;
+   }
+}
+
+
+
+
+
+@media only screen and (max-width:570px){
+
+    .sec3-box div{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:950px){
+    .contact-nav{
+        display: none;
+    }
+
+
+    .nav-link{
+        display: none;
+    }
+
+
+    .hamburger{
+        display: inline-block;
+    }
+
+
+    .navbar{
+        padding: 16px 30px;
+    }
+
+
+    .sec3-heding{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: left;
+        align-items: start;
+    }
+
+
+    .sec3-heding-left h2{
+        font-size: 35px;
+    }
+
+
+    .sec3-heding-left div{
+        font-size: 18px;
+    }
+
+
+    .main-content{
+        width: 100%;
+        left: 0;
+    }
+}
+
+
+@media only screen and (max-width:1270px){
+
+    .sec2-content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        justify-content: space-evenly;
+        padding: 50px;
+        column-gap: 90px;
+        row-gap: 130px;
+    }
+
+
+    .sec2-img{
+        margin: auto;
+    }
+
+    .sec2-img img{
+        width: 700px;
+
+    }
+
+
+
+    .sec2-img2 img{
+        width: 300px;
+        height: 220px;
+        object-fit:cover;
+        border-radius: 10px;
+    }
+
+
+    .sec2-img2{
+        position: absolute;
+        top: 350px;
+        left: 60vw;
+        z-index: 2;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:810px){
+
+    .sec2-img img{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .sec2-img{
+        margin: auto;
+    }
+
+
+    .sec2-img2 img{
+        width: 200px;
+        height: 150px;
+        object-fit:cover;
+        border-radius: 10px;
+    }
+
+    .sec2-heding h1{
+        font-size: 30px;
+    }
+
+
+    .sec2-about h2{
+        font-size: 30px;
+    }
+
+    .main-section{
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    
+    .main-section img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-width:600px){
+    .sec2-img img{
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    .sec2-img2 img{
+        display: none;
+    }
+
+    .sec2-about h2{
+        width: 100%;
+    }
+
+
+    .sec2-about{
+        padding: 10px;
+    }
+
+
+    .sec2-about-list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        column-gap: 80px;
+        margin-top: 20px;
+        
+    }
+
+
+    .sec2-content{
+        row-gap: 50px;
+        padding: 0px;
+    }
+
+
+
+    .section-2{
+        padding: 50px 10pxpx;
+    }
+
+   .main-content h2{
+    font-size: 30px;
+    line-height: 35px;
+   }
+   
+   .main-content p{
+    font-size: 14px;
+   }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:520px){
+
+    .sec4-div{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .sec2-heding h1{
+        font-size: 24px;
+        text-align: center;
+      }
+
+      .sec2-about{
+        font-size: 14px;
+      }
+
+
+    .sec2-about h2{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+
+    .sec3-box div h3{
+        font-size: 18px;
+    }
+
+
+    .sec3-box div p{
+        font-size: 15px;
+    }
+
+
+    .sec3-heding-left h2{
+        font-size: 25px;
+    }
+
+   .sec3-heding-left div{
+    font-size: 17px;
+   }
+
+   .sec3-heding-left li{
+    width: 25px;
+   }
+
+   .sec3-heding div p{
+    font-size: 15px;
+   }
+
+
+   .sec3-heding{
+    padding: 30px;
+   }
+
+
+   .sec4-div h3{
+    font-size: 18px;
+   }
+
+
+   .sec4-div p{
+    font-size: 15px;
+   }
+
+   .section-4{
+    padding: 10px;
+   }
+
+
+   .sec4-heding h2{
+    font-size: 22px;
+   }
+
+   .sec4-main-div{
+    padding: 20px;
+   }
+
+
+
+   .sec5-span p{
+    font-size: 16px;
+   }
+
+   .sec5-span span{
+    width: 20px;
+   } 
+
+
+   .sec5-heding h2{
+    font-size: 20px;
+   }
+
+
+   .sec2-btn{
+    font-size: 12px;
+    width: 90px;
+    padding: 10px 0px;
+   }
+}
+
+
